@@ -12,5 +12,11 @@ public class HelloController {
 		map.addAttribute("msg","Trung tam Java");
 		return "hello";
 	}
+@RequestMapping("/hello")
+	public String sayHello(ModelMap map) {
+		map.addAttribute("msg","Trung tam Java");
+		return "hello";
+	}
+
 
 }
